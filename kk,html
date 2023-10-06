@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            background: url('background-video.mp4') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Content Creator</p>
+        
+        <!-- Discord, YouTube, Instagram, and TikTok links -->
+        <nav>
+            <a href="#">YouTube</a>
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+            <a href="#">Discord: @vagabonder</a>
+        </nav>
+    </header>
+
+    <!-- Add your content here -->
+
+    <footer>
+        &copy; 2023 Your Website
+    </footer>
+</body>
+</html>
